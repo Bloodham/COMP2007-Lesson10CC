@@ -29,7 +29,7 @@ namespace COMP2007_S2016_Lesson10CC.Models
         public virtual int BuffTypeId { get; set; }
         [Display(Name = "Description")]
         public virtual int ArtistId { get; set; }
-        public virtual string Title { get; set; }
+        public virtual string Name { get; set; }
         public virtual decimal Price { get; set; }
         [Display(Name = "Album Art URL")]
         public virtual string AlbumArtUrl { get; set; }
